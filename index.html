@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT: page title and description (shown in browser tab and search results) -->
+  <title>Jesse S. Jing | Computer Engineering ePortfolio</title>
+  <meta name="description" content="ePortfolio of Jesse S. Jing, a Computer Engineering student at Georgia Tech.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home">Jesse Jing</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#career">Career Goals</a></li>
+          <li><a href="#projects">Technical Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HOME ===== -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h1>Jesse S. Jing</h1>
+          <p class="hero-sub">Computer Engineering student at Georgia Tech, Class of 2029</p>
+          <!-- EDIT: Welcome statement, 3-4 sentences or bullets -->
+          <p class="hero-welcome"><span>Welcome! I'm a first-year Computer Engineering student at Georgia Tech with research experience in computational biophysics and quantum optics. Currently, I'm interested in software engineering, AI/ML and digital ASIC design. This site brings together my resume, my career goals, and the technical projects I've worked on. </span></p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">View my projects</a>
+            <a class="btn btn-ghost" href="assets/resume.pdf" download>Download resume</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <!-- EDIT: replace this div with <img src="assets/headshot.jpg" alt="Describe the photo"> -->
+          <img src="assets/headshot.jpg" alt="Jesse S. Jing headshot">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About me</h2>
+        <div class="about-grid">
+          <div class="prose">
+            <!-- EDIT: Your biography. Tip: revisit your Elevator Pitch and Story-Driven Interviewing work. -->
+            <p><span>I grew up in Gaithersburg, Maryland, and have been immersed in mathematics and problem-solving from a young age. I attended the Mathematics, Science, and Computer Science Magnet program at Montgomery Blair High School, where my introductory physics and algorithms & data structures classes sparked my interest in physics and computer science.   </span></p>
+            <p><span>By my sophomore and junior year, I was entering math and computing competitions like USACO and ACSL, and I'd interned at three different physics labs at the Johns Hopkins University and the University of Maryland by the summer after my junior year. I discovered a strong passion for research and using computational tools to understand complex physical and biological systems. </span></p>
+            <p><span>Despite being admitted to Georgia Tech as a physics major, my career goals and aspirations led me to pivot to computer engineering, where I could build on my foundational math and science knowledge and apply them to engineering challenges. Now, I'm focused on gaining the engineering skills and experience to contribute meaningfully to this field. </span></p>
+          </div>
+          <aside class="facts" aria-label="Quick facts">
+            <figure>
+              <!-- EDIT: replace with <img src="assets/about.jpg" alt="..."> -->
+              <img src="assets/aboutme.jpg" alt="Jesse S. Jing about me photo">
+            </figure>
+            <h3>Quick facts</h3>
+            <!-- EDIT: change labels or add/remove rows freely -->
+            <dl>
+              <dt>Major</dt><dd>B.S. in Computer Engineering, Georgia Tech</dd>
+              <dt>Expected graduation</dt><dd>May 2029</dd>
+              <dt>Interests</dt><dd><span>Volleyball, Badminton, Hiking, Weightlifting, Clarinet, Anime, Gaming</span></dd>
+              <dt>Contact</dt><dd><a href="mailto:jjing43@gatech.edu">jjing43@gatech.edu</a></dd>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESUME ===== -->
+    <section id="resume" class="section section-alt">
+      <div class="wrap">
+        <h2>Resume</h2>
+        <p class="lead">My current resume, covering education, research experience, skills, leadership, and honors. Download the PDF or read the highlights below.</p>
+        <div class="btn-row">
+          <!-- EDIT: put your PDF in the assets folder and name it resume.pdf (or change the path below) -->
+          <a class="btn btn-primary" href="assets/resume.pdf" download>Download PDF</a>
+          <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">Open in new tab</a>
+        </div>
+        <div class="pdf-frame">
+          <object data="assets/resume.pdf" type="application/pdf" aria-label="Embedded resume">
+            <p class="pdf-fallback">Your browser can't display the PDF here. Use the download button above to view my resume.</p>
+          </object>
+        </div>
+
+        <!-- Resume highlights as text (readable by everyone, and counts toward the written content) -->
+        <div class="glance">
+          <div>
+            <h3>Education</h3>
+            <ul>
+              <li><strong>Georgia Institute of Technology</strong>, B.S. in Computer Engineering. August 2026 to present; expected graduation May 2029.</li>
+              <li>In progress: Intro to Object-Oriented Programming (Java), Discrete Mathematics, Linear Algebra.</li>
+              <li>Planned for Spring 2027: Algorithms &amp; Data Structures, Multivariable Calculus, Fundamentals of Digital System Design.</li>
+              <li><strong>Montgomery Blair High School</strong> (Silver Spring, MD), Science, Mathematics, and Computer Science Magnet Program, 2022 to 2026. GPA 3.97/4.0 unweighted.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Skills</h3>
+            <ul>
+              <li><strong>Programming:</strong> Java, Python</li>
+              <li><strong>Hardware description:</strong> SystemVerilog</li>
+              <li><strong>Tools:</strong> LabVIEW</li>
+              <li><strong>Languages:</strong> English (fluent), Chinese (conversational), Spanish (conversational)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Leadership and activities</h3>
+            <ul>
+              <li><strong>Physics Team Captain</strong>, Montgomery Blair High School (August 2024 to May 2025). Led weekly physics lectures and demos for 40+ members, grew club membership by 40%, and created and maintained a physics tutoring server for 140+ active members.</li>
+              <li><strong>MBMT Task Force Lead</strong>, Montgomery Blair High School (August 2024 to May 2026). Led organization of the county's largest math competition for 400+ middle school students, wrote competition problems, managed planning, and secured $16,000+ from 10+ sponsors through outreach.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Honors and awards</h3>
+            <ul>
+              <li>2026: National Merit $2,500 Scholarship Recipient</li>
+              <li>2025: USACO Silver Division</li>
+              <li>2025: ACSL Senior Division Finalist</li>
+              <li>2024: High School Mathematical Contest in Modeling (HiMCM) Honorable Mention</li>
+            </ul>
+            <p>My research experience is described in <a href="#projects">Technical Projects</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CAREER GOALS ===== -->
+    <section id="career" class="section">
+      <div class="wrap">
+        <h2>Career goals</h2>
+        <!-- EDIT: Tip: revisit your ECE Roadmap -->
+        <p class="lead"><span>My long term career goal is to pursue a career in software engineering or computer engineering, applying my technical knowledge and problem solving skills to develop innovative technologies. While I'm still exploring different fields, I'm most interested in software development, digital system design, and the intersection of software and hardware.</span></p>
+
+        <h3>How I plan to get there</h3>
+        <!-- Ordered because these are steps over time. Add or remove <li> items as needed. -->
+        <ol class="steps">
+          <li>
+            <h4><span>This year</span></h4>
+            <p><span>Take Digital System Design, Multivariable Calculus, and Data Structures & Algorithms in my spring semester to build a strong technical foundation. Participate in Siliconjackets, HyTech Racing, and other student organizations, and pursue undergraduate research opportunities through the VIP program and Georgia Tech labs.  </span></p>
+          </li>
+          <li>
+            <h4><span>Next 2-3 years</span></h4>
+            <p><span>Pursue internships in software engineering or hardware engineering, work on personal and academic projects to deepen my technical skills, and continue engaging in student organizations and research opportunities. Build relationships with professors and faculty to build a strong network.</span></p>
+          </li>
+          <li>
+            <h4><span>After graduation</span></h4>
+            <p><span>Pursue a master's degree or PhD in my specialization, such as artificial intelligence/machine learning or software engineering. Then, secure a full time position as a software engineer or computer engineer.</span></p>
+          </li>
+        </ol>
+
+        <h3>Skills I want to build</h3>
+        <ul class="chips">
+          <li><span>Hardware design and digital systems</span></li>
+          <li><span>Embedded systems and microcontrollers</span></li>
+          <li><span>C and C++ programming languages</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== TECHNICAL PROJECTS ===== -->
+    <section id="projects" class="section section-alt">
+      <div class="wrap">
+        <h2>Technical projects</h2>
+        <p class="lead">Research projects in computational physics, quantum optics, and materials science. My Discovery Project is featured first, followed by my earlier research work.</p>
+
+        <article class="feature" id="discovery">
+          <header class="feature-head">
+            <p class="badge">Discovery Project Feature</p>
+            <h3>Coming soon</h3>
+          </header>
+          <p>My Discovery Project is in progress. This section will describe the problem, the process, and the outcome, with photos of the finished project, before the Discovery Project Showcase.</p>
+        </article>
+        
+
+        <!-- ---------- OTHER PROJECTS ---------- -->
+        <div class="projects-bar">
+          <h3>More projects</h3>
+          <div class="btn-row">
+            <button class="btn btn-small" type="button" data-expand="all">Expand all</button>
+            <button class="btn btn-small" type="button" data-expand="none">Collapse all</button>
+          </div>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- ===== PROJECT CARD TEMPLATE: copy from here ... ===== -->
+          <article class="project-card">
+            <h4 class="card-title">
+              <button class="card-toggle" type="button" aria-expanded="false" aria-controls="project-1">
+                <span class="card-heading">
+                  <span class="card-name">Active Matter Data-Analysis Pipeline</span>
+                  <span class="card-tags">Python, data analysis, physics simulation</span>
+                </span>
+                <span class="chev" aria-hidden="true"></span>
+              </button>
+            </h4>
+            <div class="card-panel" id="project-1" hidden>
+              <p><strong>Beller Lab, JHU Bloomberg Center for Physics &amp; Astronomy (Baltimore, MD, June&ndash;August 2025).</strong> As a paid research intern, I developed a Python data-analysis pipeline using KD-trees and graph-based clustering to quantify emergent patterns in active matter simulations of cytoskeletal filaments.</p>
+              <p>I analyzed spatial correlations and cluster dynamics across model parameters and identified a novel active state in which filaments form but destabilize nematic lanes. I presented the findings at the JHU REAL Undergraduate Showcase and the APS Southeastern Section Annual Meeting.</p>
+              <img src="assets/poster.jpg" alt="Active matter research poster">
+              <!-- Removed stray closing paragraph tag -->
+            </div>
+          </article>
+          <!-- ... to here. Paste below and change the id/aria-controls pair (project-2, project-3, ...) -->
+
+          <article class="project-card">
+            <h4 class="card-title">
+              <button class="card-toggle" type="button" aria-expanded="false" aria-controls="project-2">
+                <span class="card-heading">
+                  <span class="card-name">Quantum Optics Simulation Prototype</span>
+                  <span class="card-tags">Python, quantum optics, simulation</span>
+                </span>
+                <span class="chev" aria-hidden="true"></span>
+              </button>
+            </h4>
+            <div class="card-panel" id="project-2" hidden>
+              <p><strong>Porto Lab, UMD Department of Physics (College Park, MD, June&ndash;August 2025).</strong> As a research intern, I engineered the first computational prototype for a quantum optics simulation framework in Python, modeling complex wave propagation for proposed optical setups.</p>
+              <p>I identified performance bottlenecks and tested several optimization approaches. The results were incorporated into a graduate researcher's PhD candidacy proposal.</p>
+              <img src="assets/dipole.png" alt="Quantum optics simulation dipole radiation plot">
+              <!-- Removed stray closing paragraph tag -->
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h4 class="card-title">
+              <button class="card-toggle" type="button" aria-expanded="false" aria-controls="project-3">
+                <span class="card-heading">
+                  <span class="card-name">Nonlinear Optics Database and AFM Imaging</span>
+                  <span class="card-tags">LabVIEW, atomic force microscopy, materials research</span>
+                </span>
+                <span class="chev" aria-hidden="true"></span>
+              </button>
+            </h4>
+            <div class="card-panel" id="project-3" hidden>
+              <p><strong>Sternbach Lab, UMD Department of Physics (College Park, MD, November 2023&ndash;September 2024).</strong> As a research intern, I built a database of nonlinear optical properties of organic crystals to support quantum materials research.</p>
+              <p>I also used LabVIEW to investigate near-field and far-field imaging in atomic force microscopy (AFM) experiments.</p>
+              <img src="assets/quantum.png" alt="Development of spectroscopic methods to investigate properties of quantum materials">
+              <!-- Removed stray closing paragraph tag -->
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER / CONTACT ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Jesse S. Jing</p>
+      <ul>
+        <li><a href="mailto:jjing43@gatech.edu">jjing43@gatech.edu</a></li>
+        <li><a href="https://www.linkedin.com/in/jesse-jing-b2b036272/">LinkedIn Profile</a></li>
+        <li><a href="https://github.com/JesseJiCO">GitHub Profile</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
